@@ -3,12 +3,12 @@
 	gnocchiclient Python bindings to the Gnocchi APIThis is a client for Gnocchi \
 	API
 Name:           python-gnocchiclient
-Version:        7.0.6
+Version:        7.0.5
 Release:        1
 Summary:        Python client library for Gnocchi
 License:        Apache-2.0
 URL:            http://gnocchi.xyz/gnocchiclient
-Source0:        https://files.pythonhosted.org/packages/74/21/5452d2794132eee6d9072182262b26be6f66887c8af45281a04bc5391188/gnocchiclient-7.0.6.tar.gz
+Source0:        https://files.pythonhosted.org/packages/9d/c8/1a254fb7128ed90d5b8f29d1f06fe18319d6c9ce83068379020394c52e98/gnocchiclient-7.0.5.tar.gz
 BuildArch:      noarch
 %description
 %{common_desc}
@@ -109,5 +109,8 @@ mv %{buildroot}/doclist.lst .
 %{_docdir}/*
 
 %changelog
+* Mon Nov 08 2021 OpenStack_SIG <openstack@openeuler.org> - 7.0.5-1
+- Downgrade package python3-gnocchiclient to version 7.0.5-1
+
 * Tue Jul 20 2021 OpenStack_SIG <openstack@openeuler.org> - 7.0.6-1
 - Package Spec generate
